@@ -1,2 +1,2 @@
 before_script:
-  - psql -c "create role ticketee with createdb login password 'ticketee';" -U postgres
+  - psql -c 'create database ticketee_test;' -U postgres
